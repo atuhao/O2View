@@ -1,0 +1,22 @@
+{
+  "name": "O2View",
+  "version": "0.1.0",
+  "summary": "A short description of O2View.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/atuhao/O2View",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "atuhao": "zhangchangming@eptok.com"
+  },
+  "source": {
+    "git": "https://github.com/atuhao/O2View.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "O2View/Classes/**/*"
+}
