@@ -63,10 +63,10 @@
 		73F8DD0F78449EDEA06D86BF /* Pods-O2View_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-O2View_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-O2View_Example/Pods-O2View_Example.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A5076280979FAF7343EACF16 /* Pods_O2View_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_O2View_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B4F7DDE58604FDB85B03340F /* O2View.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = O2View.podspec; path = ../O2View.podspec; sourceTree = "<group>"; };
-		BEB76A45632B7EA5143D4BB4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B4F7DDE58604FDB85B03340F /* O2View.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = O2View.podspec; path = ../O2View.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BEB76A45632B7EA5143D4BB4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		ED9F55682DA8757FB20FDF26 /* Pods-O2View_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-O2View_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-O2View_Example/Pods-O2View_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		F2D4544DEE525ACAA746BBDB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F2D4544DEE525ACAA746BBDB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */

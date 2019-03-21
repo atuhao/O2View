@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'O2View'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'my test private pod'
 
 # This description is used to generate tags and improve search results.
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-                        only test
+                        my test local pod only test
                        DESC
 
   s.homepage         = 'https://github.com/atuhao/O2View'
