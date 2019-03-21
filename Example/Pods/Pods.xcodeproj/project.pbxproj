@@ -10,6 +10,8 @@
 		013F93C78FD50D33A8F3720B81CB25E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		023E4A8198C045C0E9E97EDC42C2F086 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		18A190295ABC358EFE84384ECF7D7A4E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		32F2D42D224365BC00461DAB /* ZcmLoginPodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F2D42B224365BC00461DAB /* ZcmLoginPodViewController.m */; };
+		32F2D42E224365BC00461DAB /* ZcmLoginPodViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 32F2D42C224365BC00461DAB /* ZcmLoginPodViewController.h */; };
 		475C089D87094B5B67EECD414CCEA6D2 /* Pods-O2View_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B8AA2704A49A640DF96C8290F784A1 /* Pods-O2View_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4C25E2FFF5FC4B475275DD5BAB9C7376 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E08BFF512648BE6C8463B47E48E5B1D /* ReplaceMe.m */; };
 		5C832E4CAD66CC556F3A2643E0A9FCB3 /* Pods-O2View_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D7B5CECD28F07AD16CC849380AE91D5 /* Pods-O2View_Example-dummy.m */; };
@@ -38,19 +40,21 @@
 
 /* Begin PBXFileReference section */
 		00EA363F4C4B0E5845D319DAE510691B /* Pods-O2View_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-O2View_Example.release.xcconfig"; sourceTree = "<group>"; };
-		09A7E951CB1D60566361DCFD323CF36A /* Pods_O2View_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_O2View_Tests.framework; path = "Pods-O2View_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		09A7E951CB1D60566361DCFD323CF36A /* Pods_O2View_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_O2View_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B1B4831D7B8A0F480AD6C6A56CBACA6 /* Pods-O2View_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-O2View_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		1D7B5CECD28F07AD16CC849380AE91D5 /* Pods-O2View_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-O2View_Example-dummy.m"; sourceTree = "<group>"; };
-		1DFB24917BB1C4C95207517E3406C4BF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		1DFB24917BB1C4C95207517E3406C4BF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		22B8AA2704A49A640DF96C8290F784A1 /* Pods-O2View_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-O2View_Tests-umbrella.h"; sourceTree = "<group>"; };
 		2A0299D0B97D57ED688D53250C7BB21F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2F2EB1E4EC25857FCD50747D48174246 /* Pods-O2View_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-O2View_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		32F2D42B224365BC00461DAB /* ZcmLoginPodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZcmLoginPodViewController.m; path = O2View/Classes/ZcmLoginPodViewController.m; sourceTree = "<group>"; };
+		32F2D42C224365BC00461DAB /* ZcmLoginPodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZcmLoginPodViewController.h; path = O2View/Classes/ZcmLoginPodViewController.h; sourceTree = "<group>"; };
 		43C2D29C85EC117E2F8E67014D19F5B9 /* Pods-O2View_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-O2View_Example-frameworks.sh"; sourceTree = "<group>"; };
 		4793E4395262E9B5BCE3FE01A805D9F0 /* Pods-O2View_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-O2View_Tests.modulemap"; sourceTree = "<group>"; };
 		59BD40AD6AA20342887185D0CB5854E6 /* Pods-O2View_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-O2View_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		5B06CD33A4B575807B45191A67E8807E /* Pods-O2View_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-O2View_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		5B3D3DCF0E847172602DEB7E4BC220A2 /* O2View.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = O2View.framework; path = O2View.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B3D3DCF0E847172602DEB7E4BC220A2 /* O2View.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = O2View.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E08BFF512648BE6C8463B47E48E5B1D /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = O2View/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		6027EC893553ECDD164C7A87C4AE25BB /* Pods-O2View_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-O2View_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		66FE718C108A03D2CDBBBD316206AE23 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -60,18 +64,18 @@
 		70F59272D8EA00113A60988BE087A07A /* O2View-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "O2View-umbrella.h"; sourceTree = "<group>"; };
 		89AB33436D3050F541E6FE466E9B9799 /* Pods-O2View_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-O2View_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		93301A17C80881F753224D0613E10194 /* O2View-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "O2View-prefix.pch"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AA3808D91121D5FBE3A431D90D259A0E /* O2View-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "O2View-dummy.m"; sourceTree = "<group>"; };
 		AF46F8B74F949A3492CAA7666D182079 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B20D026FAB6D4B026FC5DA1A0296CB3A /* Pods-O2View_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-O2View_Example-umbrella.h"; sourceTree = "<group>"; };
 		B9BD2498E682334F2BD3FCCACC205BA4 /* Pods-O2View_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-O2View_Tests-dummy.m"; sourceTree = "<group>"; };
 		C9A5CBDB9C76D93D0C3480AE71160758 /* Pods-O2View_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-O2View_Tests-resources.sh"; sourceTree = "<group>"; };
-		C9ED4C10FCB66BC4BFEFA9BB2F987C69 /* O2View.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = O2View.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C9ED4C10FCB66BC4BFEFA9BB2F987C69 /* O2View.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = O2View.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D00E15AD4836B4FF4E837D7576788E54 /* Pods-O2View_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-O2View_Example.modulemap"; sourceTree = "<group>"; };
-		E28E2CD39408A605196FE332A680C4DE /* Pods_O2View_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_O2View_Example.framework; path = "Pods-O2View_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E28E2CD39408A605196FE332A680C4DE /* Pods_O2View_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_O2View_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F026E9CF31726CC4A429416EC4E302EF /* Pods-O2View_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-O2View_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F5219298DB86BCEB4BC828E2672A9E32 /* O2View.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = O2View.modulemap; sourceTree = "<group>"; };
-		FCA84A654D2167E087EB82A9FB6F27B1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		FCA84A654D2167E087EB82A9FB6F27B1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +147,8 @@
 		29C2392E440455970FA6F80AC5CDE2D0 /* O2View */ = {
 			isa = PBXGroup;
 			children = (
+				32F2D42C224365BC00461DAB /* ZcmLoginPodViewController.h */,
+				32F2D42B224365BC00461DAB /* ZcmLoginPodViewController.m */,
 				5E08BFF512648BE6C8463B47E48E5B1D /* ReplaceMe.m */,
 				1C1753A2ED023A42B165EAE255D3946E /* Pod */,
 				FCDF8A51E3223668BB4E1C236F3B150E /* Support Files */,
@@ -234,6 +240,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32F2D42E224365BC00461DAB /* ZcmLoginPodViewController.h in Headers */,
 				98EB4BC35A064DF3E2A3BB0DD21E222B /* O2View-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -328,6 +335,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
 			productRefGroup = 0495416A8BBCC3267A47C9DD57EF2560 /* Products */;
@@ -379,6 +387,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C23956161C5E502A58211CBAE6BE1DB /* O2View-dummy.m in Sources */,
+				32F2D42D224365BC00461DAB /* ZcmLoginPodViewController.m in Sources */,
 				4C25E2FFF5FC4B475275DD5BAB9C7376 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,7 +420,6 @@
 /* Begin XCBuildConfiguration section */
 		04B729FDDADE799105D3192AED46CB4C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89AB33436D3050F541E6FE466E9B9799 /* Pods-O2View_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -444,7 +452,6 @@
 		};
 		1060C651694E0301A83ACBFA7FF0AF08 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1B1B4831D7B8A0F480AD6C6A56CBACA6 /* Pods-O2View_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -478,7 +485,6 @@
 		};
 		11474FDC7FDA8C712E3B0940CB3B847F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6F92D3AAB3348AE674DE5DD2F655927E /* O2View.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -508,7 +514,6 @@
 		};
 		782F2A2B883FB7582184E910FECE815B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2F2EB1E4EC25857FCD50747D48174246 /* Pods-O2View_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -600,7 +605,6 @@
 		};
 		C95E27F6CD424D4EC6B65E453E5DCC43 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 00EA363F4C4B0E5845D319DAE510691B /* Pods-O2View_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -698,7 +702,6 @@
 		};
 		F83067AD0F8DB5BD660C95E164D38D0D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6F92D3AAB3348AE674DE5DD2F655927E /* O2View.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
